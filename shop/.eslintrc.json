@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-unused-expressions": "warn",
+    "no-unused-labels": "warn",
+    "no-undef-init": "warn",
+    "no-undef": "error"
+  }
+}

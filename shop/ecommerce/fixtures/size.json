@@ -1,0 +1,2144 @@
+[
+{
+    "model": "ecommerce.size",
+    "pk": 6,
+    "fields": {
+        "size_name": "S/T",
+        "slug": "st",
+        "cifra_size": "",
+        "makito_size": "S/T",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 1,
+        "created_at": "2022-01-09T17:45:47.647Z",
+        "updated_at": "2022-01-09T17:45:47.647Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 7,
+    "fields": {
+        "size_name": "HOM",
+        "slug": "hom",
+        "cifra_size": "",
+        "makito_size": "HOM",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 2,
+        "created_at": "2022-01-09T17:46:15.943Z",
+        "updated_at": "2022-01-09T17:46:15.943Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 8,
+    "fields": {
+        "size_name": "MUJ",
+        "slug": "muj",
+        "cifra_size": "",
+        "makito_size": "MUJ",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 3,
+        "created_at": "2022-01-09T19:10:38.668Z",
+        "updated_at": "2022-01-09T19:10:38.668Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 9,
+    "fields": {
+        "size_name": "S",
+        "slug": "s",
+        "cifra_size": "",
+        "makito_size": "S",
+        "pfconcept_size": "S",
+        "roly_size": "S",
+        "roly_size_id": "01",
+        "jhk_size": "S",
+        "order": 4,
+        "created_at": "2022-01-09T19:11:07.593Z",
+        "updated_at": "2022-01-09T19:11:07.593Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 10,
+    "fields": {
+        "size_name": "M",
+        "slug": "m",
+        "cifra_size": "",
+        "makito_size": "M",
+        "pfconcept_size": "M",
+        "roly_size": "M",
+        "roly_size_id": "02",
+        "jhk_size": "M",
+        "order": 5,
+        "created_at": "2022-01-09T19:11:43.292Z",
+        "updated_at": "2022-01-09T19:11:43.292Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 11,
+    "fields": {
+        "size_name": "L",
+        "slug": "l",
+        "cifra_size": "",
+        "makito_size": "L",
+        "pfconcept_size": "L",
+        "roly_size": "L",
+        "roly_size_id": "03",
+        "jhk_size": "L",
+        "order": 6,
+        "created_at": "2022-01-09T19:12:11.403Z",
+        "updated_at": "2022-01-09T19:12:11.403Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 12,
+    "fields": {
+        "size_name": "XL",
+        "slug": "xl",
+        "cifra_size": "",
+        "makito_size": "XL",
+        "pfconcept_size": "XL",
+        "roly_size": "XL",
+        "roly_size_id": "04",
+        "jhk_size": "XL",
+        "order": 7,
+        "created_at": "2022-01-09T19:12:43.180Z",
+        "updated_at": "2022-01-09T19:12:43.180Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 13,
+    "fields": {
+        "size_name": "XXL",
+        "slug": "xxl",
+        "cifra_size": "",
+        "makito_size": "XXL",
+        "pfconcept_size": "XXL",
+        "roly_size": "XXL",
+        "roly_size_id": "05",
+        "jhk_size": "XXL",
+        "order": 8,
+        "created_at": "2022-01-09T19:13:12.847Z",
+        "updated_at": "2022-01-09T19:13:12.847Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 14,
+    "fields": {
+        "size_name": "XS",
+        "slug": "xs",
+        "cifra_size": "",
+        "makito_size": "XS",
+        "pfconcept_size": "XS",
+        "roly_size": "XS",
+        "roly_size_id": "00",
+        "jhk_size": "XS",
+        "order": 9,
+        "created_at": "2022-01-09T19:13:40.418Z",
+        "updated_at": "2022-01-09T19:13:40.418Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 15,
+    "fields": {
+        "size_name": "7-8",
+        "slug": "7-8",
+        "cifra_size": "",
+        "makito_size": "7-8",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "7-8",
+        "order": 10,
+        "created_at": "2022-01-09T19:14:14.420Z",
+        "updated_at": "2022-01-09T19:14:14.420Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 16,
+    "fields": {
+        "size_name": "9-11",
+        "slug": "9-11",
+        "cifra_size": "",
+        "makito_size": "9-11",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "9-11",
+        "order": 11,
+        "created_at": "2022-01-09T19:14:40.472Z",
+        "updated_at": "2022-01-09T19:14:40.472Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 17,
+    "fields": {
+        "size_name": "4-5",
+        "slug": "4-5",
+        "cifra_size": "",
+        "makito_size": "4-5",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 12,
+        "created_at": "2022-01-09T19:15:02.491Z",
+        "updated_at": "2022-01-09T19:15:02.491Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 18,
+    "fields": {
+        "size_name": "6-8",
+        "slug": "6-8",
+        "cifra_size": "",
+        "makito_size": "6-8",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 13,
+        "created_at": "2022-01-09T19:15:21.679Z",
+        "updated_at": "2022-01-09T19:15:21.679Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 19,
+    "fields": {
+        "size_name": "10-12",
+        "slug": "10-12",
+        "cifra_size": "",
+        "makito_size": "10-12",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 14,
+        "created_at": "2022-01-09T19:15:40.354Z",
+        "updated_at": "2022-01-09T19:15:40.354Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 20,
+    "fields": {
+        "size_name": "L/XL",
+        "slug": "lxl",
+        "cifra_size": "",
+        "makito_size": "L/XL",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "L/XL",
+        "order": 15,
+        "created_at": "2022-01-09T19:16:38.852Z",
+        "updated_at": "2022-01-09T19:16:38.852Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 21,
+    "fields": {
+        "size_name": "S/M",
+        "slug": "sm",
+        "cifra_size": "",
+        "makito_size": "S/M",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "S/M",
+        "order": 16,
+        "created_at": "2022-01-09T19:17:05.788Z",
+        "updated_at": "2022-01-09T19:17:05.788Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 22,
+    "fields": {
+        "size_name": "12-14",
+        "slug": "12-14",
+        "cifra_size": "",
+        "makito_size": "12-14",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "12-14",
+        "order": 17,
+        "created_at": "2022-01-09T19:17:27.901Z",
+        "updated_at": "2022-01-09T19:17:27.901Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 23,
+    "fields": {
+        "size_name": "8-10",
+        "slug": "8-10",
+        "cifra_size": "",
+        "makito_size": "8-10",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 18,
+        "created_at": "2022-01-09T19:18:00.228Z",
+        "updated_at": "2022-01-09T19:18:00.228Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 24,
+    "fields": {
+        "size_name": "4 GB",
+        "slug": "4-gb",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "4 GB",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 19,
+        "created_at": "2022-01-09T19:18:30.330Z",
+        "updated_at": "2022-01-09T19:18:30.330Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 25,
+    "fields": {
+        "size_name": "M/L",
+        "slug": "ml",
+        "cifra_size": "",
+        "makito_size": "M/L",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 20,
+        "created_at": "2022-01-09T19:18:58.138Z",
+        "updated_at": "2022-01-09T19:18:58.138Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 26,
+    "fields": {
+        "size_name": "XL/XX",
+        "slug": "xlxx",
+        "cifra_size": "",
+        "makito_size": "XL/XX",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 21,
+        "created_at": "2022-01-09T19:19:18.216Z",
+        "updated_at": "2022-01-09T19:19:18.216Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 27,
+    "fields": {
+        "size_name": "8 GB",
+        "slug": "8-gb",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "8 GB",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 22,
+        "created_at": "2022-01-09T19:19:37.246Z",
+        "updated_at": "2022-01-09T19:19:37.246Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 28,
+    "fields": {
+        "size_name": "ESP",
+        "slug": "esp",
+        "cifra_size": "",
+        "makito_size": "ESP",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 23,
+        "created_at": "2022-01-09T19:20:02.626Z",
+        "updated_at": "2022-01-09T19:20:02.626Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 29,
+    "fields": {
+        "size_name": "INT",
+        "slug": "int",
+        "cifra_size": "",
+        "makito_size": "INT",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 24,
+        "created_at": "2022-01-09T19:31:23.506Z",
+        "updated_at": "2022-01-09T19:31:23.506Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 30,
+    "fields": {
+        "size_name": "2 GB",
+        "slug": "2-gb",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "2 GB",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 25,
+        "created_at": "2022-01-09T19:31:50.663Z",
+        "updated_at": "2022-01-09T19:31:50.663Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 31,
+    "fields": {
+        "size_name": "50 hojas",
+        "slug": "50-hojas",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "50 hojas",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 26,
+        "created_at": "2022-01-09T19:32:12.277Z",
+        "updated_at": "2022-01-09T19:32:12.277Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 32,
+    "fields": {
+        "size_name": "3XL",
+        "slug": "3xl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "3XL",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "3XL",
+        "order": 27,
+        "created_at": "2022-01-09T19:32:37.531Z",
+        "updated_at": "2022-01-09T19:32:37.531Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 33,
+    "fields": {
+        "size_name": "XXS",
+        "slug": "xxs",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "XXS",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 28,
+        "created_at": "2022-01-09T19:32:54.819Z",
+        "updated_at": "2022-01-09T19:32:54.819Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 34,
+    "fields": {
+        "size_name": "116",
+        "slug": "116",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "116",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 29,
+        "created_at": "2022-01-09T19:33:20.218Z",
+        "updated_at": "2022-01-09T19:33:20.218Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 35,
+    "fields": {
+        "size_name": "128",
+        "slug": "128",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "128",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 30,
+        "created_at": "2022-01-09T19:33:37.011Z",
+        "updated_at": "2022-01-09T19:33:37.011Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 36,
+    "fields": {
+        "size_name": "104",
+        "slug": "104",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "104",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 31,
+        "created_at": "2022-01-09T19:33:50.338Z",
+        "updated_at": "2022-01-09T19:33:50.338Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 37,
+    "fields": {
+        "size_name": "140",
+        "slug": "140",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "140",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 32,
+        "created_at": "2022-01-09T19:34:02.977Z",
+        "updated_at": "2022-01-09T19:34:02.977Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 38,
+    "fields": {
+        "size_name": "152",
+        "slug": "152",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "152",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 33,
+        "created_at": "2022-01-09T19:34:23.948Z",
+        "updated_at": "2022-01-09T19:34:23.948Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 39,
+    "fields": {
+        "size_name": "164",
+        "slug": "164",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "164",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 34,
+        "created_at": "2022-01-09T19:34:35.921Z",
+        "updated_at": "2022-01-09T19:34:35.921Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 40,
+    "fields": {
+        "size_name": "XXXL",
+        "slug": "xxxl",
+        "cifra_size": "",
+        "makito_size": "XXXL",
+        "pfconcept_size": "",
+        "roly_size": "XXXL",
+        "roly_size_id": "06",
+        "jhk_size": "",
+        "order": 35,
+        "created_at": "2022-01-09T19:35:00.877Z",
+        "updated_at": "2022-01-09T19:35:00.877Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 41,
+    "fields": {
+        "size_name": "4XL",
+        "slug": "4xl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "4XL",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "4XL",
+        "order": 36,
+        "created_at": "2022-01-09T19:35:26.813Z",
+        "updated_at": "2022-01-09T19:35:26.813Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 42,
+    "fields": {
+        "size_name": "5XL",
+        "slug": "5xl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "5XL",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "5XL",
+        "order": 37,
+        "created_at": "2022-01-09T19:35:52.493Z",
+        "updated_at": "2022-01-09T19:35:52.493Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 43,
+    "fields": {
+        "size_name": "56",
+        "slug": "56",
+        "cifra_size": "",
+        "makito_size": "56",
+        "pfconcept_size": "",
+        "roly_size": "56",
+        "roly_size_id": "64",
+        "jhk_size": "",
+        "order": 38,
+        "created_at": "2022-01-09T19:36:53.658Z",
+        "updated_at": "2022-01-09T19:36:53.658Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 44,
+    "fields": {
+        "size_name": "58",
+        "slug": "58",
+        "cifra_size": "",
+        "makito_size": "58",
+        "pfconcept_size": "",
+        "roly_size": "58",
+        "roly_size_id": "65",
+        "jhk_size": "",
+        "order": 39,
+        "created_at": "2022-01-09T19:37:22.895Z",
+        "updated_at": "2022-01-09T19:37:22.895Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 45,
+    "fields": {
+        "size_name": "Talla",
+        "slug": "talla",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "Talla",
+        "order": 40,
+        "created_at": "2022-01-09T19:37:42.042Z",
+        "updated_at": "2022-01-09T19:37:42.042Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 46,
+    "fields": {
+        "size_name": "2XL",
+        "slug": "2xl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "2XL",
+        "order": 41,
+        "created_at": "2022-01-09T19:37:55.563Z",
+        "updated_at": "2022-01-09T19:37:55.563Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 47,
+    "fields": {
+        "size_name": "5-6",
+        "slug": "5-6",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "5-6",
+        "order": 42,
+        "created_at": "2022-01-09T19:38:09.196Z",
+        "updated_at": "2022-01-09T19:38:09.196Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 48,
+    "fields": {
+        "size_name": "3XS",
+        "slug": "3xs",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "3XS",
+        "order": 43,
+        "created_at": "2022-01-09T19:38:38.992Z",
+        "updated_at": "2022-01-09T19:38:38.992Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 49,
+    "fields": {
+        "size_name": "2XS",
+        "slug": "2xs",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "2XS",
+        "order": 44,
+        "created_at": "2022-01-09T19:38:56.565Z",
+        "updated_at": "2022-01-09T19:38:56.565Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 50,
+    "fields": {
+        "size_name": "XLW/O",
+        "slug": "xlwo",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "XLW/O",
+        "order": 45,
+        "created_at": "2022-01-09T19:39:10.088Z",
+        "updated_at": "2022-01-09T19:39:10.088Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 51,
+    "fields": {
+        "size_name": "34-36",
+        "slug": "34-36",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "34-36",
+        "order": 46,
+        "created_at": "2022-01-09T19:39:24.607Z",
+        "updated_at": "2022-01-09T19:39:24.607Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 52,
+    "fields": {
+        "size_name": "37-39",
+        "slug": "37-39",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "37-39",
+        "order": 47,
+        "created_at": "2022-01-09T19:39:47.480Z",
+        "updated_at": "2022-01-09T19:39:47.481Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 53,
+    "fields": {
+        "size_name": "40-42",
+        "slug": "40-42",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "40-42",
+        "order": 48,
+        "created_at": "2022-01-09T19:40:05.310Z",
+        "updated_at": "2022-01-09T19:40:05.310Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 54,
+    "fields": {
+        "size_name": "1-2",
+        "slug": "1-2",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "1-2",
+        "order": 49,
+        "created_at": "2022-01-09T19:40:54.580Z",
+        "updated_at": "2022-01-09T19:40:54.580Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 55,
+    "fields": {
+        "size_name": "3-4",
+        "slug": "3-4",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "3-4",
+        "order": 50,
+        "created_at": "2022-01-09T19:41:10.588Z",
+        "updated_at": "2022-01-09T19:41:10.588Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 56,
+    "fields": {
+        "size_name": "SIZE",
+        "slug": "size",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "SIZE",
+        "roly_size_id": "SIZECODE",
+        "jhk_size": "",
+        "order": 51,
+        "created_at": "2022-01-09T19:41:58.110Z",
+        "updated_at": "2022-01-09T19:41:58.110Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 57,
+    "fields": {
+        "size_name": "4 AÑOS",
+        "slug": "4-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "4 AÑOS",
+        "roly_size_id": "22",
+        "jhk_size": "",
+        "order": 52,
+        "created_at": "2022-01-09T19:42:15.916Z",
+        "updated_at": "2022-01-09T19:42:15.916Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 58,
+    "fields": {
+        "size_name": "6 AÑOS",
+        "slug": "6-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "6 AÑOS",
+        "roly_size_id": "24",
+        "jhk_size": "",
+        "order": 53,
+        "created_at": "2022-01-09T19:42:35.035Z",
+        "updated_at": "2022-01-09T19:42:35.035Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 59,
+    "fields": {
+        "size_name": "8 AÑOS",
+        "slug": "8-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "8 AÑOS",
+        "roly_size_id": "25",
+        "jhk_size": "",
+        "order": 54,
+        "created_at": "2022-01-09T19:42:52.223Z",
+        "updated_at": "2022-01-09T19:42:52.223Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 60,
+    "fields": {
+        "size_name": "10 AÑOS",
+        "slug": "10-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "10 AÑOS",
+        "roly_size_id": "26",
+        "jhk_size": "",
+        "order": 55,
+        "created_at": "2022-01-09T19:43:17.893Z",
+        "updated_at": "2022-01-09T19:43:17.893Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 61,
+    "fields": {
+        "size_name": "12 AÑOS",
+        "slug": "12-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "12 AÑOS",
+        "roly_size_id": "27",
+        "jhk_size": "",
+        "order": 56,
+        "created_at": "2022-01-09T19:43:39.431Z",
+        "updated_at": "2022-01-09T19:43:39.431Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 62,
+    "fields": {
+        "size_name": "14 AÑOS",
+        "slug": "14-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "14 AÑOS",
+        "roly_size_id": "28",
+        "jhk_size": "",
+        "order": 57,
+        "created_at": "2022-01-09T19:44:01.201Z",
+        "updated_at": "2022-01-09T19:44:01.201Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 63,
+    "fields": {
+        "size_name": "16 AÑOS",
+        "slug": "16-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "16 AÑOS",
+        "roly_size_id": "29",
+        "jhk_size": "",
+        "order": 58,
+        "created_at": "2022-01-09T19:44:24.533Z",
+        "updated_at": "2022-01-09T19:44:24.533Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 64,
+    "fields": {
+        "size_name": "UNICA",
+        "slug": "unica",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "UNICA",
+        "roly_size_id": "90",
+        "jhk_size": "",
+        "order": 59,
+        "created_at": "2022-01-09T19:44:51.719Z",
+        "updated_at": "2022-01-09T19:44:51.719Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 65,
+    "fields": {
+        "size_name": "9 MESES",
+        "slug": "9-meses",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "9 MESES",
+        "roly_size_id": "103",
+        "jhk_size": "",
+        "order": 60,
+        "created_at": "2022-01-09T19:45:10.922Z",
+        "updated_at": "2022-01-09T19:45:10.922Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 66,
+    "fields": {
+        "size_name": "3 MESES",
+        "slug": "3-meses",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "3 MESES",
+        "roly_size_id": "104",
+        "jhk_size": "",
+        "order": 61,
+        "created_at": "2022-01-09T19:45:31.502Z",
+        "updated_at": "2022-01-09T19:45:31.502Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 67,
+    "fields": {
+        "size_name": "6 MESES",
+        "slug": "6-meses",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "6 MESES",
+        "roly_size_id": "35",
+        "jhk_size": "",
+        "order": 62,
+        "created_at": "2022-01-09T19:45:48.798Z",
+        "updated_at": "2022-01-09T19:45:48.798Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 68,
+    "fields": {
+        "size_name": "12 MESES",
+        "slug": "12-meses",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "12 MESES",
+        "roly_size_id": "36",
+        "jhk_size": "",
+        "order": 63,
+        "created_at": "2022-01-09T19:46:06.774Z",
+        "updated_at": "2022-01-09T19:46:06.774Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 69,
+    "fields": {
+        "size_name": "18 MESES",
+        "slug": "18-meses",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "18 MESES",
+        "roly_size_id": "37",
+        "jhk_size": "",
+        "order": 64,
+        "created_at": "2022-01-09T19:46:23.651Z",
+        "updated_at": "2022-01-09T19:46:23.651Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 70,
+    "fields": {
+        "size_name": "XXXXL",
+        "slug": "xxxxl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "XXXXL",
+        "roly_size_id": "07",
+        "jhk_size": "",
+        "order": 65,
+        "created_at": "2022-01-09T19:46:45.941Z",
+        "updated_at": "2022-01-09T19:46:45.941Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 71,
+    "fields": {
+        "size_name": "11/12 AÑOS",
+        "slug": "1112-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "11/12 AÑOS",
+        "roly_size_id": "44",
+        "jhk_size": "",
+        "order": 66,
+        "created_at": "2022-01-09T19:47:04.448Z",
+        "updated_at": "2022-01-09T19:47:04.448Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 72,
+    "fields": {
+        "size_name": "XXXXXL",
+        "slug": "xxxxxl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "XXXXXL",
+        "roly_size_id": "08",
+        "jhk_size": "",
+        "order": 67,
+        "created_at": "2022-01-09T19:47:31.253Z",
+        "updated_at": "2022-01-09T19:47:31.253Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 73,
+    "fields": {
+        "size_name": "3/4 AÑOS",
+        "slug": "34-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "3/4 AÑOS",
+        "roly_size_id": "40",
+        "jhk_size": "",
+        "order": 68,
+        "created_at": "2022-01-09T19:47:48.740Z",
+        "updated_at": "2022-01-09T19:47:48.740Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 74,
+    "fields": {
+        "size_name": "5/6 AÑOS",
+        "slug": "56-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "5/6 AÑOS",
+        "roly_size_id": "41",
+        "jhk_size": "",
+        "order": 69,
+        "created_at": "2022-01-09T19:48:10.386Z",
+        "updated_at": "2022-01-09T19:48:10.386Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 75,
+    "fields": {
+        "size_name": "7/8 AÑOS",
+        "slug": "78-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "7/8 AÑOS",
+        "roly_size_id": "42",
+        "jhk_size": "",
+        "order": 70,
+        "created_at": "2022-01-09T19:48:32.620Z",
+        "updated_at": "2022-01-09T19:48:32.620Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 76,
+    "fields": {
+        "size_name": "9/10 AÑOS",
+        "slug": "910-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "9/10 AÑOS",
+        "roly_size_id": "43",
+        "jhk_size": "",
+        "order": 71,
+        "created_at": "2022-01-09T19:48:58.284Z",
+        "updated_at": "2022-01-09T19:48:58.284Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 77,
+    "fields": {
+        "size_name": "50",
+        "slug": "50",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "50",
+        "roly_size_id": "61",
+        "jhk_size": "",
+        "order": 72,
+        "created_at": "2022-01-09T19:49:25.117Z",
+        "updated_at": "2022-01-09T19:49:25.117Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 78,
+    "fields": {
+        "size_name": "52",
+        "slug": "52",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "52",
+        "roly_size_id": "73",
+        "jhk_size": "",
+        "order": 73,
+        "created_at": "2022-01-09T19:49:45.310Z",
+        "updated_at": "2022-01-09T19:49:45.310Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 79,
+    "fields": {
+        "size_name": "38",
+        "slug": "38",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "38",
+        "roly_size_id": "55",
+        "jhk_size": "",
+        "order": 74,
+        "created_at": "2022-01-09T19:50:03.014Z",
+        "updated_at": "2022-01-09T19:50:03.014Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 80,
+    "fields": {
+        "size_name": "40",
+        "slug": "40",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "40",
+        "roly_size_id": "56",
+        "jhk_size": "",
+        "order": 75,
+        "created_at": "2022-01-09T19:50:26.012Z",
+        "updated_at": "2022-01-09T19:50:26.012Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 81,
+    "fields": {
+        "size_name": "42",
+        "slug": "42",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "42",
+        "roly_size_id": "57",
+        "jhk_size": "",
+        "order": 76,
+        "created_at": "2022-01-09T19:50:42.075Z",
+        "updated_at": "2022-01-09T19:50:42.075Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 82,
+    "fields": {
+        "size_name": "44",
+        "slug": "44",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "44",
+        "roly_size_id": "58",
+        "jhk_size": "",
+        "order": 77,
+        "created_at": "2022-01-09T19:51:07.192Z",
+        "updated_at": "2022-01-09T19:51:07.192Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 83,
+    "fields": {
+        "size_name": "46",
+        "slug": "46",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "46",
+        "roly_size_id": "59",
+        "jhk_size": "",
+        "order": 78,
+        "created_at": "2022-01-09T19:51:23.481Z",
+        "updated_at": "2022-01-09T19:51:23.481Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 84,
+    "fields": {
+        "size_name": "48",
+        "slug": "48",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "48",
+        "roly_size_id": "60",
+        "jhk_size": "",
+        "order": 79,
+        "created_at": "2022-01-09T19:51:43.373Z",
+        "updated_at": "2022-01-09T19:51:43.373Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 85,
+    "fields": {
+        "size_name": "36",
+        "slug": "36",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "36",
+        "roly_size_id": "54",
+        "jhk_size": "",
+        "order": 80,
+        "created_at": "2022-01-09T19:52:03.921Z",
+        "updated_at": "2022-01-09T19:52:03.921Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 86,
+    "fields": {
+        "size_name": "54",
+        "slug": "54",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "54",
+        "roly_size_id": "63",
+        "jhk_size": "",
+        "order": 81,
+        "created_at": "2022-01-09T19:52:24.456Z",
+        "updated_at": "2022-01-09T19:52:24.456Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 87,
+    "fields": {
+        "size_name": "60",
+        "slug": "60",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "60",
+        "roly_size_id": "66",
+        "jhk_size": "",
+        "order": 82,
+        "created_at": "2022-01-09T19:52:44.307Z",
+        "updated_at": "2022-01-09T19:52:44.307Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 88,
+    "fields": {
+        "size_name": "38x68cm",
+        "slug": "38x68cm",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "38x68cm",
+        "roly_size_id": "97",
+        "jhk_size": "",
+        "order": 83,
+        "created_at": "2022-01-09T19:53:06.601Z",
+        "updated_at": "2022-01-09T19:53:06.601Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 89,
+    "fields": {
+        "size_name": "60x145cm",
+        "slug": "60x145cm",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "60x145cm",
+        "roly_size_id": "98",
+        "jhk_size": "",
+        "order": 84,
+        "created_at": "2022-01-09T19:53:27.699Z",
+        "updated_at": "2022-01-09T19:53:27.700Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 90,
+    "fields": {
+        "size_name": "37x41",
+        "slug": "37x41",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "37x41",
+        "roly_size_id": "M15",
+        "jhk_size": "",
+        "order": 85,
+        "created_at": "2022-01-09T19:53:49.760Z",
+        "updated_at": "2022-01-09T19:53:49.760Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 91,
+    "fields": {
+        "size_name": "40x30x10",
+        "slug": "40x30x10",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "40x30x10",
+        "roly_size_id": "M06",
+        "jhk_size": "",
+        "order": 86,
+        "created_at": "2022-01-09T19:54:08.840Z",
+        "updated_at": "2022-01-09T19:54:08.840Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 92,
+    "fields": {
+        "size_name": "17x40x10",
+        "slug": "17x40x10",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "17x40x10",
+        "roly_size_id": "M02",
+        "jhk_size": "",
+        "order": 87,
+        "created_at": "2022-01-09T19:54:34.242Z",
+        "updated_at": "2022-01-09T19:54:34.242Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 93,
+    "fields": {
+        "size_name": "35x40x12",
+        "slug": "35x40x12",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "35x40x12",
+        "roly_size_id": "M07",
+        "jhk_size": "",
+        "order": 88,
+        "created_at": "2022-01-09T19:54:52.120Z",
+        "updated_at": "2022-01-09T19:54:52.120Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 94,
+    "fields": {
+        "size_name": "44x30x10",
+        "slug": "44x30x10",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "44x30x10",
+        "roly_size_id": "M11",
+        "jhk_size": "",
+        "order": 89,
+        "created_at": "2022-01-09T19:55:08.986Z",
+        "updated_at": "2022-01-09T19:55:08.986Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 95,
+    "fields": {
+        "size_name": "54x40x10",
+        "slug": "54x40x10",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "54x40x10",
+        "roly_size_id": "M13",
+        "jhk_size": "",
+        "order": 90,
+        "created_at": "2022-01-09T19:55:24.735Z",
+        "updated_at": "2022-01-09T19:55:24.735Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 96,
+    "fields": {
+        "size_name": "36x40",
+        "slug": "36x40",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "36x40",
+        "roly_size_id": "M14",
+        "jhk_size": "",
+        "order": 91,
+        "created_at": "2022-01-09T19:55:46.423Z",
+        "updated_at": "2022-01-09T19:55:46.423Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 97,
+    "fields": {
+        "size_name": "2 AÑOS",
+        "slug": "2-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "2 AÑOS",
+        "roly_size_id": "38",
+        "jhk_size": "",
+        "order": 92,
+        "created_at": "2022-01-09T19:56:11.456Z",
+        "updated_at": "2022-01-09T19:56:11.456Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 98,
+    "fields": {
+        "size_name": "KID (31/34)",
+        "slug": "kid-3134",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "KID (31/34)",
+        "roly_size_id": "91",
+        "jhk_size": "",
+        "order": 93,
+        "created_at": "2022-01-09T19:58:36.728Z",
+        "updated_at": "2022-01-09T19:58:36.729Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 99,
+    "fields": {
+        "size_name": "JR (35/40)",
+        "slug": "jr-3540",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "JR (35/40)",
+        "roly_size_id": "92",
+        "jhk_size": "",
+        "order": 94,
+        "created_at": "2022-01-09T19:59:05.091Z",
+        "updated_at": "2022-01-09T19:59:05.091Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 100,
+    "fields": {
+        "size_name": "SR (41/46)",
+        "slug": "sr-4146",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "SR (41/46)",
+        "roly_size_id": "93",
+        "jhk_size": "",
+        "order": 95,
+        "created_at": "2022-01-09T19:59:26.386Z",
+        "updated_at": "2022-01-09T19:59:26.386Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 101,
+    "fields": {
+        "size_name": "3XS/2XS",
+        "slug": "3xs2xs",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "3XS/2XS",
+        "roly_size_id": "69",
+        "jhk_size": "",
+        "order": 96,
+        "created_at": "2022-01-09T19:59:49.954Z",
+        "updated_at": "2022-01-09T19:59:49.954Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 102,
+    "fields": {
+        "size_name": "XS-S",
+        "slug": "xs-s",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "XS-S",
+        "roly_size_id": "70",
+        "jhk_size": "",
+        "order": 97,
+        "created_at": "2022-01-09T20:00:10.969Z",
+        "updated_at": "2022-01-09T20:00:10.969Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 103,
+    "fields": {
+        "size_name": "S-M",
+        "slug": "s-m",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "S-M",
+        "roly_size_id": "73",
+        "jhk_size": "",
+        "order": 98,
+        "created_at": "2022-01-09T20:00:46.183Z",
+        "updated_at": "2022-01-09T20:00:46.183Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 104,
+    "fields": {
+        "size_name": "L-XL",
+        "slug": "l-xl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "L-XL",
+        "roly_size_id": "74",
+        "jhk_size": "",
+        "order": 99,
+        "created_at": "2022-01-09T20:01:06.602Z",
+        "updated_at": "2022-01-09T20:01:06.602Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 105,
+    "fields": {
+        "size_name": "2XL-3XL",
+        "slug": "2xl-3xl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "2XL-3XL",
+        "roly_size_id": "78",
+        "jhk_size": "",
+        "order": 100,
+        "created_at": "2022-01-09T20:01:31.372Z",
+        "updated_at": "2022-01-09T20:01:31.372Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 106,
+    "fields": {
+        "size_name": "JR",
+        "slug": "jr",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "JR",
+        "roly_size_id": "94",
+        "jhk_size": "",
+        "order": 101,
+        "created_at": "2022-01-09T20:01:52.188Z",
+        "updated_at": "2022-01-09T20:01:52.188Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 107,
+    "fields": {
+        "size_name": "UNICA NIÑO",
+        "slug": "unica-nino",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "UNICA NIÑO",
+        "roly_size_id": "46",
+        "jhk_size": "",
+        "order": 102,
+        "created_at": "2022-01-09T20:02:15.400Z",
+        "updated_at": "2022-01-09T20:02:15.400Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 108,
+    "fields": {
+        "size_name": "70x120",
+        "slug": "70x120",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "70x120",
+        "roly_size_id": "108",
+        "jhk_size": "",
+        "order": 103,
+        "created_at": "2022-01-09T20:02:36.513Z",
+        "updated_at": "2022-01-09T20:02:36.513Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 109,
+    "fields": {
+        "size_name": "13/14 AÑOS",
+        "slug": "1314-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "13/14 AÑOS",
+        "roly_size_id": "45",
+        "jhk_size": "",
+        "order": 104,
+        "created_at": "2022-01-09T20:02:59.947Z",
+        "updated_at": "2022-01-09T20:02:59.947Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 110,
+    "fields": {
+        "size_name": "37/39",
+        "slug": "3739",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "37/39",
+        "roly_size_id": "32",
+        "jhk_size": "",
+        "order": 105,
+        "created_at": "2022-01-09T20:03:27.062Z",
+        "updated_at": "2022-01-09T20:03:27.062Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 111,
+    "fields": {
+        "size_name": "40/42",
+        "slug": "4042",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "40/42",
+        "roly_size_id": "33",
+        "jhk_size": "",
+        "order": 106,
+        "created_at": "2022-01-09T20:03:56.165Z",
+        "updated_at": "2022-01-09T20:03:56.165Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 112,
+    "fields": {
+        "size_name": "43/45",
+        "slug": "4345",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "43/45",
+        "roly_size_id": "34",
+        "jhk_size": "",
+        "order": 107,
+        "created_at": "2022-01-09T20:04:16.798Z",
+        "updated_at": "2022-01-09T20:04:16.798Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 113,
+    "fields": {
+        "size_name": "M-L",
+        "slug": "m-l",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "M-L",
+        "roly_size_id": "71",
+        "jhk_size": "",
+        "order": 108,
+        "created_at": "2022-01-09T20:04:42.229Z",
+        "updated_at": "2022-01-09T20:04:42.229Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 114,
+    "fields": {
+        "size_name": "XL-XXL",
+        "slug": "xl-xxl",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "XL-XXL",
+        "roly_size_id": "72",
+        "jhk_size": "",
+        "order": 109,
+        "created_at": "2022-01-09T20:05:01.234Z",
+        "updated_at": "2022-01-09T20:05:01.234Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 115,
+    "fields": {
+        "size_name": "4-6 AÑOS",
+        "slug": "4-6-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "4-6 AÑOS",
+        "roly_size_id": "75",
+        "jhk_size": "",
+        "order": 110,
+        "created_at": "2022-01-09T20:05:29.467Z",
+        "updated_at": "2022-01-09T20:05:29.467Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 116,
+    "fields": {
+        "size_name": "8-10 AÑOS",
+        "slug": "8-10-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "8-10 AÑOS",
+        "roly_size_id": "76",
+        "jhk_size": "",
+        "order": 111,
+        "created_at": "2022-01-09T20:05:57.311Z",
+        "updated_at": "2022-01-09T20:05:57.311Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 117,
+    "fields": {
+        "size_name": "12-14 AÑOS",
+        "slug": "12-14-anos",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "12-14 AÑOS",
+        "roly_size_id": "77",
+        "jhk_size": "",
+        "order": 112,
+        "created_at": "2022-01-09T20:06:18.017Z",
+        "updated_at": "2022-01-09T20:06:18.017Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 118,
+    "fields": {
+        "size_name": "SR",
+        "slug": "sr",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "SR",
+        "roly_size_id": "95",
+        "jhk_size": "",
+        "order": 113,
+        "created_at": "2022-01-09T20:06:39.033Z",
+        "updated_at": "2022-01-09T20:06:39.033Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 119,
+    "fields": {
+        "size_name": "36X40X12",
+        "slug": "36x40x12",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "36X40X12",
+        "roly_size_id": "M17",
+        "jhk_size": "",
+        "order": 114,
+        "created_at": "2022-01-09T20:07:02.578Z",
+        "updated_at": "2022-01-09T20:07:02.578Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 120,
+    "fields": {
+        "size_name": "3M",
+        "slug": "3m",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "3M",
+        "roly_size_id": "115",
+        "jhk_size": "",
+        "order": 115,
+        "created_at": "2022-01-09T20:07:19.319Z",
+        "updated_at": "2022-01-09T20:07:19.319Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 121,
+    "fields": {
+        "size_name": "6M",
+        "slug": "6m",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "6M",
+        "roly_size_id": "116",
+        "jhk_size": "",
+        "order": 116,
+        "created_at": "2022-01-09T20:07:38.176Z",
+        "updated_at": "2022-01-09T20:07:38.176Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 122,
+    "fields": {
+        "size_name": "9M",
+        "slug": "9m",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "9M",
+        "roly_size_id": "117",
+        "jhk_size": "",
+        "order": 117,
+        "created_at": "2022-01-09T20:07:55.187Z",
+        "updated_at": "2022-01-09T20:07:55.187Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 123,
+    "fields": {
+        "size_name": "12M",
+        "slug": "12m",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "12M",
+        "roly_size_id": "118",
+        "jhk_size": "",
+        "order": 118,
+        "created_at": "2022-01-09T20:08:22.302Z",
+        "updated_at": "2022-01-09T20:08:22.302Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 124,
+    "fields": {
+        "size_name": "18M",
+        "slug": "18m",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "18M",
+        "roly_size_id": "119",
+        "jhk_size": "",
+        "order": 119,
+        "created_at": "2022-01-09T20:08:40.512Z",
+        "updated_at": "2022-01-09T20:08:40.512Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 125,
+    "fields": {
+        "size_name": "0",
+        "slug": "0",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "0",
+        "order": 120,
+        "created_at": "2022-01-09T20:09:04.498Z",
+        "updated_at": "2022-01-09T20:09:04.498Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 126,
+    "fields": {
+        "size_name": "1",
+        "slug": "1",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "1",
+        "order": 121,
+        "created_at": "2022-01-09T20:09:23.681Z",
+        "updated_at": "2022-01-09T20:09:23.681Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 127,
+    "fields": {
+        "size_name": "2",
+        "slug": "2",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "2",
+        "order": 122,
+        "created_at": "2022-01-09T20:09:45.389Z",
+        "updated_at": "2022-01-09T20:09:45.389Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 128,
+    "fields": {
+        "size_name": "14-16",
+        "slug": "14-16",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "14-16",
+        "order": 123,
+        "created_at": "2022-01-09T20:09:58.820Z",
+        "updated_at": "2022-01-09T20:09:58.820Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 129,
+    "fields": {
+        "size_name": "4GB",
+        "slug": "4gb",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "4GB",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 124,
+        "created_at": "2022-01-09T20:10:22.273Z",
+        "updated_at": "2022-01-09T20:10:22.273Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 130,
+    "fields": {
+        "size_name": "2GB",
+        "slug": "2gb",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "2GB",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 125,
+        "created_at": "2022-01-09T20:10:38.187Z",
+        "updated_at": "2022-01-09T20:10:38.187Z"
+    }
+},
+{
+    "model": "ecommerce.size",
+    "pk": 131,
+    "fields": {
+        "size_name": "50 pages",
+        "slug": "50-pages",
+        "cifra_size": "",
+        "makito_size": "",
+        "pfconcept_size": "50 pages",
+        "roly_size": "",
+        "roly_size_id": "",
+        "jhk_size": "",
+        "order": 126,
+        "created_at": "2022-01-09T20:11:01.517Z",
+        "updated_at": "2022-01-09T20:11:01.517Z"
+    }
+}
+]

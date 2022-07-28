@@ -1,0 +1,139 @@
+// Tabs
+.nav-tabs {
+	margin: 0;
+	border: 0;
+	border-bottom: 1px solid #e7e7e7;
+	padding-bottom: 2px;
+
+	.nav-item {
+		margin-bottom: -2px;
+
+		.nav-link {
+			padding: 1.2rem 0;
+			border: 0;
+			border-bottom: 2px solid transparent;
+			color: #282d3b;
+			font-weight: 700;
+			font-size: 1.4rem;
+			line-height: 1;
+			font-family: $second-font-family;
+			text-transform: uppercase;
+
+			&:hover {
+				color: $primary-color;
+			}
+		}
+
+		&:not(:last-child) {
+			margin-right: 3.5rem;
+		}
+
+		&.active .nav-link {
+			border-bottom-color: $primary-color-dark;
+			color: $primary-color-dark;
+		}
+	}
+}
+
+.product-single-tabs.product-tabs-list {
+	.product-desc-content {
+		p {
+			margin-bottom: 1.3rem;
+		}
+
+		ul, 
+		ol {
+			padding-left: 5.8rem;
+			margin-bottom: 2rem;
+		}
+
+		li::before {
+			left: 2.4rem;
+		}
+	}
+}
+
+.product-slider-tab {
+	.tab-content {
+		position: relative;
+
+		>.tab-pane {
+		  display: block !important;
+		  position: absolute;
+		  left: 0;
+		  right: 0;
+		  top: 0;
+		  bottom: 0;
+		  height: 0 !important;
+		  opacity: 0;
+		  z-index: -1;
+		  transition: visibility .3s, opacity .3s;
+	
+		  &:not(.active) {
+			overflow: hidden;
+			visibility: hidden;
+		  }
+		}
+	
+		>.active {
+		  position: relative;
+		  height: auto !important;
+		  opacity: 1;
+		  z-index: auto;
+		}
+	}
+}
+
+.tab-content>.tab-pane {
+    display: block;
+}
+
+//product-tab-list
+@include mq(lg) {
+	.product-single-tabs.product-tabs-list {
+		padding-bottom: 2px;
+
+		.col-lg-2 {
+			-ms-flex: 0 0 21.4%;
+			flex: 0 0 21.4%;
+			max-width: 21.4%;
+		}
+
+		.col-lg-10 {
+			-ms-flex: 0 0 78.6%;
+			flex: 0 0 78.6%;
+			max-width: 78.6%;
+		}
+		
+		.nav.nav-tabs {
+			flex-direction: column;
+			border: none;
+
+			.nav-item {
+				margin-right: 0;
+				margin-bottom: .8rem;
+				border-bottom: 1px solid #e7e7e7;
+			}
+
+			.nav-link {
+				display: inline-block;
+				padding: 1.4rem 0 1.5rem;
+				margin-bottom: -1px;
+			}
+		}
+
+		.tab-pane.show {
+			padding-top: .5rem;
+		}
+
+		.tab-content {
+			padding-left: .9rem;
+		}
+	}
+}
+
+@include mq(xs, max) {
+	.nav-tabs .nav-item:not(:last-child) {
+		margin-right: 2.5rem;
+	}
+}

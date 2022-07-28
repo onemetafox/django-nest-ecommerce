@@ -1,0 +1,75 @@
+/* Dropzone */
+.dropzone {
+  position: relative;
+  background: rgba(0, 0, 0, 0.03) none repeat scroll 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  min-height: 122px;
+  padding: 23px;
+  overflow: hidden;
+
+  .dz-preview.dz-error .dz-error-message {
+    display: none;
+  }
+
+  .dz-default {
+    span {
+      transition: color 0.1s ease-in;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .dz-default {
+      span {
+        color: rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}
+
+// MODERN
+// -----------------------------------------------------------------------------
+.dropzone-modern {
+  min-height: 200px;
+  background: transparent;
+  border: 2px dashed #e7e7e7;
+  outline: none;
+  transition: ease opacity 300ms;
+  .dropzone-upload-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    > i {
+      display: block;
+      text-align: center;
+      font-size: 3rem;
+      color: #e7e7e7;
+    }
+  }
+
+  &.dz-started {
+    .dropzone-upload-message {
+      display: none;
+    }
+  }
+
+  .dz-preview .dz-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &:hover {
+    .dropzone-upload-message {
+      > i {
+        color: #ccc;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.rc-tree {
+	.rc-tree-treenode {
+		position: relative;
+
+		span.rc-tree-switcher {
+			float: right;
+		}
+	}
+
+	.rc-tree-treenode-switcher-close span.toggle:before {
+		content: '\e81c';
+	}
+    
+	&.no-icon .rc-tree-treenode span.rc-tree-switcher {
+		background: none;	
+	}
+
+	&.cat-list {
+		.rc-tree-treenode {
+			font-size: 14px;
+			font-weight: 500;
+			line-height: inherit;
+
+			.rc-tree-node-content-wrapper {
+				height: auto;
+
+				&:hover {
+					color: $primary-color;
+				}
+			}
+
+			&:not(:last-child) {
+				margin-bottom: 1.3rem;
+			}
+		}
+
+		.rc-tree-node-selected {
+			background: none;
+			box-shadow: none;
+			opacity: 1;
+			color: $primary-color;
+		}
+
+		.rc-tree-indent-unit {
+			width: 14px;
+		}
+	}
+}

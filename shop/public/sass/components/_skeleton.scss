@@ -1,0 +1,586 @@
+.skeleton-body {
+    .skel-widget,
+    .skel-pro,
+    .skel-post,
+    .skel-pro-tabs,
+    .skel-cat,
+    .skel-pro-single .skel-product-gallery,
+    .skel-pro-single .entry-summary1,
+    .skel-pro-single .entry-summary2,
+    .skel-pro-single .entry-summary3 {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0);
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            right: -50%;
+            bottom: -50%;
+            background-image: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 80%);
+            animation: skeletonloading 1.5s infinite;
+        }
+    }
+    
+    .skel-product-col.skel-pro:before {
+        padding-top: 77px;
+        background-image: linear-gradient(#f4f4f4 250px, transparent 0), linear-gradient(#f4f4f4 12px, transparent 0), linear-gradient(#f4f4f4 16px, transparent 0), linear-gradient(#f4f4f4 12px, transparent 0), linear-gradient(#f4f4f4 14px, transparent 0), linear-gradient(#f4f4f4 14px, transparent 0), linear-gradient(#f4f4f4 16px, transparent 0), linear-gradient(#f4f4f4 20px, transparent 0);
+        background-size: 77px 100%, 150px 12px, 250px 16px, 150px 12px;
+        background-position: left 0, 90px 5px, 90px 28px, 90px 55px;
+    }
+    
+    .skel-widget {
+        &:first-of-type {
+            padding-top: 0;
+            margin-top: 0;
+        }
+
+        &:before {
+            height: 315px;
+            background-size: 100% 30px, 70% 20px, 50% 20px, 80% 20px, 40% 20px, 30% 20px, 50% 20px;
+            background-position: left 10px, left 65px, left 105px, left 145px, left 185px, left 225px, left 265px;
+        }
+    }
+
+    .skel-pro:before {
+        padding-top: 125.7%;
+        background-size: 100% 58%, 55% 15px, 85% 20px, 55% 15px, 40% 25px;
+        background-position: left 0,left calc(58% + 25px),left calc(58% + 55px),left calc(58% + 85px),left calc(58% + 120px);
+    }
+
+    .skel-pro-list {
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #ebebeb;
+
+        &:before {
+            padding-top: 250px;
+            background-image: linear-gradient(#f4f4f4 250px,transparent 0),linear-gradient(#f4f4f4 12px,transparent 0),linear-gradient(#f4f4f4 16px,transparent 0),linear-gradient(#f4f4f4 12px,transparent 0),linear-gradient(#f4f4f4 14px,transparent 0),linear-gradient(#f4f4f4 14px,transparent 0),linear-gradient(#f4f4f4 16px,transparent 0),linear-gradient(#f4f4f4 20px,transparent 0);
+            background-size: 250px 100%,150px 12px,250px 16px,150px 12px,100% 14px,100% 14px,120px 16px,200px 20px;
+            background-position: left 0,270px 20px,270px 44px,270px 70px,270px 105px,270px 130px,270px 170px,270px 205px;
+        }
+    }
+
+    .skel-pro-grid {
+        &::before {
+            content: '';
+            display: block;
+            padding-top: calc(100% + 108px);
+            background-repeat: no-repeat;
+            background-image: linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 12px,transparent 0),linear-gradient(#f4f4f4 16px,transparent 0),linear-gradient(#f4f4f4 12px,transparent 0),linear-gradient(#f4f4f4 16px,transparent 0);
+            background-size: 100% 62%,50% 12px,70% 16px,50% 12px,40% 16px;
+            background-position: left 0,left calc(62% + 20px),left calc(62% + 44px),left calc(62% + 66px),left calc(62% + 92px);
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            right: -50%;
+            bottom: -50%;
+            transform: rotate(45deg);
+            background-image: linear-gradient(90deg,rgba(255,255,255,0) 20%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 80%);
+            background-size: 60% 100%;
+            background-position: -100% 0;
+            background-repeat: no-repeat;
+            animation: skeletonloading 1.5s infinite .2s;
+        }
+    }
+
+    .skel-magnifier {
+        &::before {
+            background-image: linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0);
+            background-size: 100% calc(80% - 2px),calc(25% - 8px) calc(20% - 7px),calc(25% - 8px) calc(20% - 7px),calc(25% - 8px) calc(20% - 7px),calc(25% - 8px) calc(20% - 7px);
+            background-position: center top,left bottom,33.3333% bottom,66.6666% bottom,right bottom;
+        }
+    }
+
+    .skel-magnifier-extended {
+        &::before {
+            background-image: linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0);
+            background-size: 33.2% 100%,33.2% 100%,33.2% 100%;
+            background-position: 0 0,50% 0,100% 0;
+            padding-top: 33.4%;
+        }
+    }
+
+    .skel-magnifier-vertical {
+        &::before {
+            padding-top: 83.58%;
+            background-size: 79% 100%,19% 23%,19% 23%,19% 23%,19% 23%;
+            background-position: 100% 0,0 0,0 33.3333%,0 66.6666%,0 100%;
+        }
+    }
+
+    .skel-extended-detail {
+        &::before {
+            background-image: linear-gradient(#f4f4f4 51px, transparent 0), linear-gradient(#f4f4f4 51px, transparent 0), linear-gradient(#f4f4f4 51px, transparent 0), linear-gradient(#f4f4f4 41px, transparent 0), linear-gradient(#f4f4f4 45px, transparent 0), linear-gradient(#f4f4f4 42px, transparent 0), linear-gradient(#f4f4f4 41px, transparent 0), linear-gradient(#f4f4f4 42px, transparent 0), linear-gradient(#f4f4f4 43px, transparent 0), linear-gradient(#f4f4f4 40px, transparent 0), linear-gradient(#f4f4f4 49px, transparent 0), linear-gradient(#f4f4f4 45px, transparent 0), linear-gradient(#f4f4f4 43px, transparent 0), linear-gradient(#f4f4f4 43px, transparent 0);
+            background-size: 37% 33px,11% 11px,28% 25px,18% 35px,42.5% 40px,100% 1px,100% 11px,100% 11px,100% 11px,100% 1px,14.2% 42px,14% 42px,17% 42px, 17% 42px;
+            background-position: left 3px,left 59px,left 92px,100% 0px,100% 62px,left 145px,left 186px,left 213px,left 238px,left 291px,100% 331px,81% 331px,60% 331px,36% 331px;
+            padding-top: 34.5%;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            right: -50%;
+            bottom: -50%;
+            transform: rotate(45deg);
+            background-image: linear-gradient(90deg,rgba(255,255,255,0) 20%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 80%);
+            background-size: 60% 100%;
+            background-position: -100% 0;
+            background-repeat: no-repeat;
+            animation: skeletonloading 1.5s infinite .2s;
+        }
+    }
+
+    .skel-magnifier-grid {
+        &::before {
+            background-image: linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0);
+            background-size: calc(50% - 10px) calc(50% - 10px);
+            background-position: 0 0,right 0,0 bottom,right bottom;
+        }
+    }
+    
+    .skel-magnifier-both {
+        &::before {
+            background-image: linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0);
+            background-size: 100% calc(33.3333% - 3px);
+            background-position: 0 0,0 50%,0 bottom;
+        }
+        
+        &.skel-pro::before {
+            padding-top: 300%;
+        }
+    }
+
+    .skel-sticky {
+        &::before {            
+            padding-top: 150%;
+            background-size: 55% 25px,70% 14px,40% 18px,100% 14px,100% 14px,100% 14px,100% 14px,40% 16px,40% 16px,100% 1px,70% 25px,60% 35px,60% 25px;
+            background-position: 0 0,left 34px,left 75px,left 120px,left 147px,left 174px,left 201px,left 240px,left 270px,left 320px,left 350px,left 395px,left 455px;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            right: -50%;
+            bottom: -50%;
+            transform: rotate(45deg);
+            background-image: linear-gradient(90deg,rgba(255,255,255,0) 20%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 80%);
+            background-size: 60% 100%;
+            background-position: -100% 0;
+            background-repeat: no-repeat;
+            animation: skeletonloading 1.5s infinite .2s;
+        }
+    }
+
+    .skel-detail {
+        &::before {
+            background-image: linear-gradient(#f4f4f4 25px, transparent 0), linear-gradient(#f4f4f4 14px, transparent 0), linear-gradient(#f4f4f4 18px, transparent 0), linear-gradient(#f4f4f4 14px, transparent 0), linear-gradient(#f4f4f4 14px, transparent 0), linear-gradient(#f4f4f4 14px, transparent 0), linear-gradient(#f4f4f4 23px, transparent 0), linear-gradient(#f4f4f4 22px, transparent 0), linear-gradient(#f4f4f4 32px, transparent 0), linear-gradient(#f4f4f4 22px, transparent 0), linear-gradient(#f4f4f4 48px, transparent 0), linear-gradient(#f4f4f4 35px, transparent 0), linear-gradient(#f4f4f4 47px, transparent 0);
+            background-size: 67% 25px,48% 13px,40% 14px,94% 11px,89% 11px,81% 11px,100% 1px,50% 44px,100% 1px,50% 44px,100% 1px,85% 35px,33% 25px;
+            background-position: left top,left 37px,left 76px,left 125px,left 149px,left 174px,left 220px,left 243px,left 289px,left 314px,left 363px,left 389px,left 441px;
+            padding-top: 90%;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            right: -50%;
+            bottom: -50%;
+            transform: rotate(45deg);
+            background-image: linear-gradient(90deg,rgba(255,255,255,0) 20%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 80%);
+            background-size: 60% 100%;
+            background-position: -100% 0;
+            background-repeat: no-repeat;
+            animation: skeletonloading 1.5s infinite .2s;
+        }
+    }
+
+    .skel-pro-single .skel-product-gallery,
+    &.horizontal .skel-pro-single .skel-product-gallery {
+        &:before {
+            padding-top: 120%;
+            min-height: 480px;
+            background-size: 100% 78%, 18% 16%, 18% 16%, 18% 16%, 18% 16%;
+            background-position: left 0,0 95%,calc(20% * 100 / (100 - 18)) 95%,calc(40% * 100 / (100 - 18)) 95%,calc(60% * 100 / (100 - 18)) 95%;
+        }
+    }
+
+    .skel-pro-tabs:before {
+        min-height: 250px;
+        background-size: 100px 25px, 100px 25px,150px 25px, 100px 25px, 100% 1px, 100% 15px, 100% 15px, 100% 15px,100% 15px,100% 15px, 80% 15px;
+        background-position: 0 0,110px 0,220px 0,380px 0,0 35px,0 55px,0 85px,0 115px, 0 145px, 0 175px,0 205px;
+    }
+
+    // Shop Sidebar Skeleton
+    .skel-widget:before {
+        content: '';
+        display: block;
+        height: 320px;  
+        background-repeat: no-repeat;
+        background-image: linear-gradient(#f4f4f4 20px,transparent 0),linear-gradient(#f4f4f4 30px,transparent 0),linear-gradient(#f4f4f4 14px,transparent 0),linear-gradient(#f4f4f4 30px,transparent 0),linear-gradient(#f4f4f4 14px,transparent 0),linear-gradient(#f4f4f4 30px,transparent 0),linear-gradient(#f4f4f4 14px,transparent 0),linear-gradient(#f4f4f4 30px,transparent 0),linear-gradient(#f4f4f4 14px,transparent 0),linear-gradient(#f4f4f4 30px,transparent 0),linear-gradient(#f4f4f4 14px,transparent 0),linear-gradient(#f4f4f4 30px,transparent 0),linear-gradient(#f4f4f4 14px,transparent 0);
+        background-size: 55% 20px,30px 30px,100% 14px,30px 30px,60% 14px,30px 30px,80% 14px,30px 30px,50% 14px,30px 30px,100% 14px,30px 30px,70% 14px;
+        background-position: left 5px,left 50px,45px 58px,left 95px,45px 103px,left 140px,45px 148px,left 185px,45px 193px,left 230px,45px 238px,left 275px,45px 283px
+    }
+
+    &.product-intro.center-mode .entry-summary1:before {
+        background-position: center 0,center 35px,center 65px,center 105px,calc(12% * 100 / (100 - 82)) 185px,calc(12% * 100 / (100 - 68)) 175px,calc(12% * 100 / (100 - 82)) 245px,calc(12% * 100 / (100 - 68)) 235px
+    }
+
+    &.product-intro.center-mode .entry-summary2:before {
+        background-position: calc(12% * 100 / (100 - 68)) 10px,calc(12% * 100 / (100 - 82)) 0,calc(12% * 100 / (100 - 50)) 60px,calc(12% * 100 / (100 - 85)) 70px,left 145px,100% 150px
+    }
+
+    .skel-pro-single {
+        margin-bottom: 2rem;
+
+        .entry-summary {
+            margin-bottom: 0;
+
+            .col-md-12 + .col-md-12:before {
+                content: none;
+            }
+        }
+
+        .entry-summary1:before {
+            margin-bottom: 2rem;
+            min-height: 275px;
+            background-size: 50% 25px, 24% 20px, 34% 30px, 100% 50px, 10% 20px, 22% 40px, 10% 20px, 22% 40px;
+            background-position: left 0,left 35px,left 65px,left 105px,left 185px,calc(12% * 100 / (100 - 22)) 175px,left 245px,calc(12% * 100 / (100 - 22)) 235px;
+        }
+
+        .entry-summary2:before {
+            margin-bottom: 2rem;
+            min-height: 185px;
+            background-size: 10% 20px, 22% 40px, 34% 40px, 20% 20px, 40% 40px, 34% 30px;
+            background-position: left 10px,calc(12% * 100 / (100 - 22)) 0,left 60px,calc(42% * 100 / (100 - 20)) 70px,left 145px,100% 150px;
+        }
+
+        .entry-summary3:before {
+            margin-top: 3rem;
+            min-height: 390px;
+        }
+
+        &.gallery {
+            .skel-product-gallery:before {
+                min-height: 0;
+                padding-top: 33%;
+                background-size: 33% 100%, 33% 100%, 33% 100%;
+                background-position: left 0,calc(34% * 100 / (100 - 33)) 0,calc(68% * 100 / (100 - 33)) 0;
+            }
+
+            .entry-summary1::before {
+                background-size: 50% 25px, 24% 20px, 34% 30px, 60% 50px, 10% 20px, 22% 40px, 10% 20px, 22% 40px;
+                background-position: center 0,center 35px,center 65px,center 105px,36% 185px,calc(45% * 100 / (100 - 22)) 175px,36% 245px,calc(45% * 100 / (100 - 22)) 235px;
+            }
+
+            .entry-summary2::before {
+                background-size: 22% 40px, 34% 40px, 20% 20px, 40% 40px, 34% 30px;
+                background-position: 22% 0,calc(44% * 100 / (100 - 34)) 0,center 60px,center 100px,center 160px
+            }
+
+            .entry-summary3::before {
+                background-size: 22% 40px, 34% 40px, 20% 20px, 40% 40px, 34% 30px;
+                background-position: 22% 0,calc(44% * 100 / (100 - 34)) 0,center 60px,center 100px,center 160px
+            }
+        }
+
+        &.sticky {
+            padding-bottom: 3rem;
+            border-bottom: 1px solid #ebebeb;
+            margin-bottom: 5rem;
+
+            .accordion {
+                width: 100%;
+                text-align: left;
+            }
+
+            .skel-product-gallery:before {
+                min-height: 550px;
+                padding-top: 270%;
+                background-size: 100% 32.5%, 100% 32.5%, 100% 32.5%;
+                background-position: left 0,left calc(34% * 100 / (100 - 32)),left calc(68% * 100 / (100 - 32));
+            }
+
+            .entry-summary2:before {
+                min-height: 185px;
+                background-size: 10% 20px, 22% 40px, 34% 40px, 20% 20px, 40% 40px, 34% 30px;
+                background-position: left 10px,calc(12% * 100 / (100 - 22)) 0,left 60px,calc(42% * 100 / (100 - 20)) 70px,left 145px,100% 150px;
+            }
+        }
+
+        &.masonry_sticky .skel-product-gallery:before {
+            padding-top: 200%;
+            background-size: 100% 50%, 49% 23%, 49% 18%, 49% 30%, 49% 25%;
+            background-position: right 0,0 calc(51% * 100 / (100 - 23)),right calc(51% * 100 / (100 - 18)),0 calc(75% * 100 / (100 - 30)),right calc(70% * 100 / (100 - 25));
+        }
+
+    // product-default
+        .product-gallery, .product-details {
+            display: none;
+            // visibility: hidden;
+        }
+    }
+
+    // product-extended
+        .product-main-image {
+            width: 100%;
+        }
+
+    // product-gallery
+        .skel-pro-single.gallery.loaded {
+            .owl-item {
+                flex: none;
+            }
+        }
+
+    .skel-post {
+        margin-bottom: 5rem;
+
+        &:before {
+            padding-top: calc(16.5% + 360px);
+            background-size: 100% calc(139% - 360px),5.5% 65px,39% 30px,90% 20px,53% 20px,90% 20px;
+            background-position: left 0,left calc(157% - 340px + 20px),12% calc(133.5% - 340px + 76px),73% calc(133% - 340px + 105px),15.5% calc(107% - 342px + 260px),73% calc(108% - 340px + 295px);
+        }
+    }
+
+    .skel-post-mask {
+        margin-bottom: 2rem;
+
+        &:before {
+            padding-top: 60%;
+            background-size: 100% 100%;
+            background-position: left 0;
+        }
+    }
+
+    .skel-cat:before {
+        content: '';
+        display: block;
+        padding-top: calc(100% + 60px);
+        background-repeat: no-repeat;
+        background-image: linear-gradient(#f4f4f4 100%, transparent 0),linear-gradient(#f4f4f4 100%, transparent 0);
+        background-size: 100% 75%, 60% 20px;
+        background-position: left 0,center calc(75% + 30px);
+    }
+
+    &.post-mask:before {
+        content: none;
+    }
+
+    .skel-pro-single:not(.gallery) {
+        .owl-item {
+            flex: 0 0 100%;
+            width: 100%;
+        }
+
+        &.loaded {
+            .owl-item {
+                flex: none;
+            }
+        }
+    }
+
+    // product-list for shop/sidebar
+    .product-default {
+        display: none;
+    }
+
+    &.loaded.skel-shop-products {
+        
+        .product-default {
+            display: block;
+        }
+
+        .product-widget {
+            display: flex;
+        }
+
+        .skel-product-col,
+        .skel-pro-tabs,
+        .skel-pro,
+        .skel-post  {
+            display: none;
+        }
+        
+    }
+
+    &.loaded.skel-shop-sidebar {
+        .skel-widget {
+            display: none;
+        }
+
+        .sidebar-shop {
+            display: block;
+        }
+    }
+
+    .product-single-details.product-quick-detail {
+        max-height: none;
+        visibility: visible;
+    }
+
+    //product magnifier, detail, tab
+    .product-single-details, .product-grid, .prod-thumbnail, .vertical-thumbs,  .product-info-gallery, .product-single-tabs, .product-single-collapse, .product-single-grid .product-single-gallery {
+        display: none;
+    }
+
+    .product-single-carousel, .product-slider-container {
+        max-height: 0;
+        visibility: hidden;
+    }
+
+    &:not(.loaded) .product-single-carousel *, .product-single-carousel *::before {
+        height: 0;
+        margin: 0 !important;
+        // padding: 0 !important;
+        line-height: 0 !important;
+    }
+
+    .post {
+        display: none;
+    }
+
+    .product-single-image {
+        background: #eee;
+    }
+
+    &.loaded.skel-shop-products {
+        .product-single-details, .product-info-gallery, .product-single-tabs, .product-single-collapse,.product-single-grid .product-single-gallery {
+            display: block;
+        }
+
+        .product-single-carousel, .product-slider-container {
+            max-height: none;
+            visibility: visible;
+        }
+
+        .product-single-image {
+            background: #f4f4f4;
+        }
+
+        .product-single-carousel * {
+            height: auto;
+            margin: auto;
+            padding: auto;
+            line-height: auto;
+        }
+
+        .product-single-carousel *::before {
+            margin: auto;
+            padding: auto;
+            line-height: auto;
+        }
+
+        .prod-thumbnail, .product-grid, .product-list {
+            display: flex;
+        }
+
+        .prod-thumbnail.thumb-vertical,
+        .vertical-thumbs {
+            display: block;
+        }
+
+        .post {
+            display: block;
+        }
+    }
+}
+
+.quickView-content.horizontal .skeleton-body .skel-pro-single .skel-product-gallery::before {
+    padding-top: 120%;
+    min-height: 480px;
+    background-size: 100% 78%, 18% 16%, 18% 16%, 18% 16%, 18% 16%;
+    background-position: left 0,0 95%,calc(20% * 100 / (100 - 18)) 95%,calc(40% * 100 / (100 - 18)) 95%,calc(60% * 100 / (100 - 18)) 95%;
+}
+
+@media (max-width: 767px) {
+    .skeleton-body .skel-pro-list:before {
+        padding-top:calc(49% + 140px);
+        background-size: 49% calc(100% - 140px),20% 15px,25% 20px,100% 80px,10% 15px,15% 15px,40% 30px,49% 40px;
+        background-position: left 0,left calc(100% - 120px + 15px),left calc(100% - 120px + 50px),left calc(100% - 120px + 160px),calc(51% * 100 / (100 - 10)) calc(50% - 100px - 82px + 15px / 2),calc(51% * 100 / (100 - 15)) calc(50% - 100px - 82px + 15px / 2 + 30px),calc(55.5% * 100 / (100 - 40)) calc(50% - 100px - 82px + 30px / 2 + 80px),calc(51% * 100 / (100 - 49)) calc(50% - 100px - 82px + 40px / 2 + 125px)
+    }
+}
+
+@media (min-width: 992px), (max-width: 767px) and (min-width: 576px) {
+    .skeleton-body .skel-pro-single .skel-product-gallery:before {
+        padding-top:80%;
+        min-height: 480px;
+        background-size: 18% 21%, 18% 21%, 18% 21%, 18% 21%, 80% 100%;
+        background-position: left 0,left calc(23% * 100 / (100 - 21)),left calc(46% * 100 / (100 - 21)),left calc(69% * 100 / (100 - 21)),calc(20% * 100 / (100 - 80)) 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .skeleton-body .skel-pro-single.gallery .skel-product-gallery:before {
+        padding-top:48%;
+        background-size: 48% 100%, 48% 100%;
+        background-position: left 0,calc(52% * 100 / (100 - 48)) 0;
+    }
+
+    .skeleton-body.loaded.skel-shop-products .prod-thumbnail.thumb-vertical {
+        display: flex;
+    }
+}
+
+@media (max-width: 575px) {
+    .skeleton-body .skel-pro-single.gallery .skel-product-gallery:before {
+        padding-top:100%;
+        background-size: 100% 100%;
+        background-position: left 0
+    }
+}
+
+@media (min-width: 768px) {
+    .skeleton-body .skel-post-list {
+        margin-bottom:7rem;
+
+        &:before {
+            padding-top: 28.125%;
+            min-height: 320px;
+            background-size: 44% 100%, 20% 20px, 30% 35px, 10% 20px, 53% 100px, 10% 20px;
+            background-position: left 0,calc(47% * 100 / (100 - 20)) calc(50% - 130px - 20px / 2 + 20px),calc(47% * 100 / (100 - 30)) calc(50% - 130px - 35px / 2 + 70px),calc(47% * 100 / (100 - 10)) calc(50% - 130px - 20px / 2 + 105px),calc(47% * 100 / (100 - 53)) calc(50% - 130px - 100px / 2 + 220px),calc(47% * 100 / (100 - 10)) calc(50% - 130px - 20px / 2 + 245px);
+        }
+    }
+}
+
+@keyframes skeletonloading {
+    from {
+        transform: skewX(-45deg) translateX(-80%)
+    }
+
+    to {
+        transform: skewX(-45deg) translateX(80%)
+    }
+}
+
+.mfp-container .mfp-content .quickView-content {
+    padding: 4rem;
+    background-color: #222;
+
+    .skel-pro-single {
+        margin-bottom: -2rem
+    }
+}
+
+.cols-3 {
+    >* {
+        width: 33.33333%;
+    }
+}

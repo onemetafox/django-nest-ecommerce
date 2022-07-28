@@ -1,0 +1,33 @@
+[
+	{
+		"model": "dashboard.company",
+		"pk": 1,
+		"fields": {
+			"id": "1",
+			"company_name": "Publiexpe Gestión Integral De Publicidad S.L",
+			"cif": "B18946194",
+			"address": "P.I. IZNAMONTES, C/ DEIFONTES",
+			"address_extra": "PARCELAS 32, 33 y 34",
+			"locality": "IZNALLOZ",
+			"city": "Granada, España",
+			"postal_code": "18550",
+			"tariff_global": "5",
+			"tariff_engraving": "0",
+			"vat": null,
+			"vat_show_in_products": "0",
+			"vat_prefix": null,
+			"shipping_measure_unit": null,
+			"shipping_dimension_unit": null,
+			"product_active_review": "0",
+			"product_active_rating": "0",
+			"stock_active_management": "0",
+			"stock_low_threshold": "0",
+			"stock_high_threshold": "0",
+			"stock_out_hidde_product": "0",
+			"cart_active": "0",
+			"cuppons_active": "1",
+			"phone_number": "958166322",
+			"slug": null
+		}
+	}
+]

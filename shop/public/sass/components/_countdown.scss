@@ -1,0 +1,121 @@
+.product-countdown-container {
+    display: flex;
+    position: absolute;
+	padding: 1rem 1rem .9rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    opacity: 0.7;
+	letter-spacing: -.01em;
+	visibility: visible;
+    text-transform: uppercase;
+    font-family: $third-font-family;
+	transition: opacity .3s ease;
+    background: $primary-color;
+	z-index: 6;
+
+	.product-countdown-title {
+        display: inline-block;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-right: 3px;
+	}
+
+	.product-countdown {
+		position: relative;
+		left: auto;
+		right: auto;
+		bottom: auto;
+		z-index: 6;
+		line-height: 1;
+        opacity: 1;
+        color: #fff;
+
+		.countdown-amount {
+			display: flex;
+			align-items: center;
+			font-weight: 400;
+			font-size: 1.3rem;
+			line-height: 1;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.deal-countdown {
+	display: block;
+    padding: 0;
+    margin-bottom: 2rem;
+	margin-top: -1px;
+    background: transparent;
+    opacity: 1;
+
+	.product-countdown-title {
+		margin-bottom: 1.4rem;
+		font-size: 14px;
+		font-weight: 600;
+		color: #444;
+	}
+
+	.product-countdown {
+		display: flex;
+
+		.countdown-period {
+			display: block;
+			font-size: 10px;
+			font-weight: 400;
+			color: #fff;
+			width: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			letter-spacing: 0.02em;
+		}
+	
+		.countdown-amount {
+			display: block;
+			padding-bottom: 4px;
+			color: #fff;
+			font-weight: 600;
+			font-size: 18px;
+			letter-spacing: -.05em;
+		}
+	}
+
+	.countdown-section {
+		padding: 1em 0;
+		margin-right: 2px;
+		font-size: 1.2rem;
+		line-height: 1;
+		max-width: 64px;
+		width: 100%;
+		text-align: center;
+		background-color: 	$primary-color;
+	}
+
+	b {
+		display: none !important;
+	}
+}
+
+.product-default:not(.count-down):not(.product-list):hover {
+	.product-countdown,
+	.product-countdown-container {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+.product-default {
+	.countdown-section,
+	.product-countdown {
+		display: flex;
+		align-items: center;
+		font-size: 13px;
+	}
+}

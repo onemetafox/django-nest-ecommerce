@@ -1,0 +1,20 @@
+.price-slider-wrapper .input-range {
+    height: .3rem;
+    .input-range__slider {
+        height: 1.1rem;
+        width: 1.1rem;
+        right: -.55rem;
+        left: auto;
+        top: -0.05em;
+        background: $primary-color;
+        border-color: $primary-color;
+    }
+    .input-range__track--active {
+        background: #eee;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.38) inset;
+    }
+    .input-range__label--value,
+    .input-range__label-container {
+        color: transparent;
+    }
+}
