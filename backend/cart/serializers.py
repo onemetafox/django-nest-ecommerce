@@ -1,5 +1,5 @@
 from unittest.util import _MAX_LENGTH
-from attr import field
+from attrs import field
 from django.http import cookie
 from rest_framework import serializers
 from .models import Coupon, Order, OrderItem
